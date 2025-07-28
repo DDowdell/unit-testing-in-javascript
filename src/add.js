@@ -27,5 +27,12 @@ const unitTestExampleTwo = () => {
   console.log(add("Hello ", "world") === "Hello world" ? "Passed" : "Failed");
 };
 
+//you do=======
+const unitTestExampleThree = () => {
+  //test number and string
+  console.log(add("hello I am ", 35) === "hello I am 35" ? "Passed" : "Failed");
+};
+
 unitTestExampleOne();
 unitTestExampleTwo();
+unitTestExampleThree();
